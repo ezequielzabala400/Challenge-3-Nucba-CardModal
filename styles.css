@@ -1,0 +1,137 @@
+:root{
+    --Blanco: #ffffff;
+    --Negro: #000000;
+    --AzulOscuro: #203774;
+    --Azul: #4868bd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #dbdbdb;
+}
+
+.Card-Modal{
+    margin: auto;
+    margin-top: 130px;
+    height: 728px;
+    width: 859px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background:var(--Blanco);
+    border-radius: 20px;
+}
+
+.Card-Modal__Titles{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
+    background: var(--AzulOscuro);
+    color: var(--Blanco);
+    font-size: 2em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Card-Modal__Titles i{
+    cursor: pointer;
+}
+
+.Card-Modal__Day{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+.Card-Modal__Day span{
+    color: #cfcfcf;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.Card-Modal__Day div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.Card-Modal__Day div p:last-child{
+    font-size: 16px;
+}
+
+.Card-Modal__Card-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.Card-Modal__Card{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--AzulOscuro);
+    color: var(--Blanco);
+    border-radius: 20px;
+}
+
+.Card-Modal__Card__Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Card-Modal__Card__Info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Card-Modal__Card__Info p:first-child{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.Card-Modal__Card__Content button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background: var(--Blanco);
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Card-Modal__Card__User{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.User-Icon{
+    height: 40px;
+    width: 40px;
+    border: 3px solid var(--Azul);
+    border-radius: 50px;
+}
